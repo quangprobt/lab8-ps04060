@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: lab8-ps04060
+  host: lab8-ps04060
+  disk_quota: 1024M
+  services:
+  - lab8-ps04060-cloudantNoSQLDB
